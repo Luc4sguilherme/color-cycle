@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  animation: colorchange 15s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    background: #FF5252;
+  }
+
+  10% {
+    background: #C2185B;
+  }
+
+  20% {
+    background: #E040FB;
+  }
+
+  30% {
+    background: #512DA8;
+  }
+
+  40% {
+    background: #536DFE;
+  }
+
+  50% {
+    background: #448AFF;
+  }
+
+  60% {
+    background: #00BCD4;
+  }
+
+  70% {
+    background: #00BCD4;
+  }
+
+  80% {
+    background: #009688;
+  }
+
+  90% {
+    background: #4CAF50;
+  }
+
+  100% {
+    background: #CDDC39;
+  }
+}
